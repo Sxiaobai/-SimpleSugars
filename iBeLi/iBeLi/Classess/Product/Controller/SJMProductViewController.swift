@@ -17,7 +17,7 @@ class SJMProductViewController: SJMBaseViewController {
     }
     
         var dataArray:NSMutableArray! = NSMutableArray()
-        var space: CGFloat = 2
+        var space: CGFloat = 4
         var page: NSInteger = 1
         lazy var productView: UICollectionView = {
     
