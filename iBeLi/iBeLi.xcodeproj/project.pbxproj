@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3535E41D96851000DFDBBC /* SJMSugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */; };
+		BC3535F51D96858000DFDBBC /* SJMHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535E71D96858000DFDBBC /* SJMHomeCell.swift */; };
+		BC3535F61D96858000DFDBBC /* SJMHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3535E81D96858000DFDBBC /* SJMHomeCell.xib */; };
+		BC3535F71D96858000DFDBBC /* SJMCateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535E91D96858000DFDBBC /* SJMCateView.swift */; };
+		BC3535F81D96858000DFDBBC /* SJMChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535EA1D96858000DFDBBC /* SJMChannelsView.swift */; };
+		BC3535F91D96858000DFDBBC /* SJMCollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535EB1D96858000DFDBBC /* SJMCollectView.swift */; };
+		BC3535FA1D96858000DFDBBC /* SJMDigitalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535EC1D96858000DFDBBC /* SJMDigitalView.swift */; };
+		BC3535FB1D96858000DFDBBC /* SJMGrocerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535ED1D96858000DFDBBC /* SJMGrocerView.swift */; };
+		BC3535FC1D96858000DFDBBC /* SJMHomeGardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535EE1D96858000DFDBBC /* SJMHomeGardenView.swift */; };
+		BC3535FD1D96858000DFDBBC /* SJMSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535EF1D96858000DFDBBC /* SJMSelectionView.swift */; };
+		BC3535FE1D96858000DFDBBC /* SJMBannersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F11D96858000DFDBBC /* SJMBannersModel.swift */; };
+		BC3535FF1D96858000DFDBBC /* SJMBannersNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F21D96858000DFDBBC /* SJMBannersNetWorkManager.swift */; };
+		BC3536001D96858000DFDBBC /* SJMHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F31D96858000DFDBBC /* SJMHomeModel.swift */; };
+		BC3536011D96858000DFDBBC /* SJMHomeNetWorkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F41D96858000DFDBBC /* SJMHomeNetWorkManger.swift */; };
 		BCA87A541D9180DA00635CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A531D9180DA00635CEB /* AppDelegate.swift */; };
 		BCA87A561D9180DA00635CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A551D9180DA00635CEB /* ViewController.swift */; };
 		BCA87A591D9180DA00635CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA87A571D9180DA00635CEB /* Main.storyboard */; };
 		BCA87A5B1D9180DA00635CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA87A5A1D9180DA00635CEB /* Assets.xcassets */; };
 		BCA87A5E1D9180DA00635CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA87A5C1D9180DA00635CEB /* LaunchScreen.storyboard */; };
-		BCA87A821D91812A00635CEB /* SJMSugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A681D91812A00635CEB /* SJMSugarViewController.swift */; };
 		BCA87A831D91812A00635CEB /* SJMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A6C1D91812A00635CEB /* SJMBaseViewController.swift */; };
 		BCA87A841D91812A00635CEB /* SJMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A6D1D91812A00635CEB /* SJMNavigationController.swift */; };
 		BCA87A851D91812A00635CEB /* SJMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A6E1D91812A00635CEB /* SJMTabBarController.swift */; };
@@ -374,6 +387,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMSugarViewController.swift; sourceTree = "<group>"; };
+		BC3535E71D96858000DFDBBC /* SJMHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeCell.swift; sourceTree = "<group>"; };
+		BC3535E81D96858000DFDBBC /* SJMHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMHomeCell.xib; sourceTree = "<group>"; };
+		BC3535E91D96858000DFDBBC /* SJMCateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMCateView.swift; sourceTree = "<group>"; };
+		BC3535EA1D96858000DFDBBC /* SJMChannelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMChannelsView.swift; sourceTree = "<group>"; };
+		BC3535EB1D96858000DFDBBC /* SJMCollectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMCollectView.swift; sourceTree = "<group>"; };
+		BC3535EC1D96858000DFDBBC /* SJMDigitalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMDigitalView.swift; sourceTree = "<group>"; };
+		BC3535ED1D96858000DFDBBC /* SJMGrocerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMGrocerView.swift; sourceTree = "<group>"; };
+		BC3535EE1D96858000DFDBBC /* SJMHomeGardenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeGardenView.swift; sourceTree = "<group>"; };
+		BC3535EF1D96858000DFDBBC /* SJMSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMSelectionView.swift; sourceTree = "<group>"; };
+		BC3535F11D96858000DFDBBC /* SJMBannersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMBannersModel.swift; sourceTree = "<group>"; };
+		BC3535F21D96858000DFDBBC /* SJMBannersNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMBannersNetWorkManager.swift; sourceTree = "<group>"; };
+		BC3535F31D96858000DFDBBC /* SJMHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeModel.swift; sourceTree = "<group>"; };
+		BC3535F41D96858000DFDBBC /* SJMHomeNetWorkManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeNetWorkManger.swift; sourceTree = "<group>"; };
 		BCA87A501D9180DA00635CEB /* iBeLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA87A531D9180DA00635CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA87A551D9180DA00635CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -381,7 +408,6 @@
 		BCA87A5A1D9180DA00635CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA87A5D1D9180DA00635CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA87A5F1D9180DA00635CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCA87A681D91812A00635CEB /* SJMSugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMSugarViewController.swift; sourceTree = "<group>"; };
 		BCA87A6C1D91812A00635CEB /* SJMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMBaseViewController.swift; sourceTree = "<group>"; };
 		BCA87A6D1D91812A00635CEB /* SJMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMNavigationController.swift; sourceTree = "<group>"; };
 		BCA87A6E1D91812A00635CEB /* SJMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMTabBarController.swift; sourceTree = "<group>"; };
@@ -810,6 +836,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3535E51D96858000DFDBBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC3535E61D96858000DFDBBC /* Cell */,
+				BC3535E91D96858000DFDBBC /* SJMCateView.swift */,
+				BC3535EA1D96858000DFDBBC /* SJMChannelsView.swift */,
+				BC3535EB1D96858000DFDBBC /* SJMCollectView.swift */,
+				BC3535EC1D96858000DFDBBC /* SJMDigitalView.swift */,
+				BC3535ED1D96858000DFDBBC /* SJMGrocerView.swift */,
+				BC3535EE1D96858000DFDBBC /* SJMHomeGardenView.swift */,
+				BC3535EF1D96858000DFDBBC /* SJMSelectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC3535E61D96858000DFDBBC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC3535E71D96858000DFDBBC /* SJMHomeCell.swift */,
+				BC3535E81D96858000DFDBBC /* SJMHomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BC3535F01D96858000DFDBBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC3535F11D96858000DFDBBC /* SJMBannersModel.swift */,
+				BC3535F21D96858000DFDBBC /* SJMBannersNetWorkManager.swift */,
+				BC3535F31D96858000DFDBBC /* SJMHomeModel.swift */,
+				BC3535F41D96858000DFDBBC /* SJMHomeNetWorkManger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BCA87A471D9180DA00635CEB = {
 			isa = PBXGroup;
 			children = (
@@ -859,6 +920,8 @@
 		BCA87A661D91812A00635CEB /*  Sugars */ = {
 			isa = PBXGroup;
 			children = (
+				BC3535E51D96858000DFDBBC /* View */,
+				BC3535F01D96858000DFDBBC /* Model */,
 				BCA87A671D91812A00635CEB /* Controller */,
 			);
 			path = " Sugars";
@@ -867,7 +930,7 @@
 		BCA87A671D91812A00635CEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BCA87A681D91812A00635CEB /* SJMSugarViewController.swift */,
+				BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2534,6 +2597,7 @@
 				BCF5EDE21D94FBD3007FCD5B /* baichuan_btn_favorites_21x21_@3x.png in Resources */,
 				BCF5EE3E1D94FBD3007FCD5B /* Me_message_20x20_@3x.png in Resources */,
 				BCF5EE5D1D94FBD3007FCD5B /* Contents.json in Resources */,
+				BC3535F61D96858000DFDBBC /* SJMHomeCell.xib in Resources */,
 				BCF5EE731D94FBD3007FCD5B /* Post_ReplyButton_50x50_@3x.png in Resources */,
 				BCF5EE9D1D94FBD3007FCD5B /* Search_GiftBtn_Default_12x10_@3x.png in Resources */,
 				BCF5EF851D95169E007FCD5B /* LICENSE in Resources */,
@@ -2765,6 +2829,8 @@
 			files = (
 				BCF5EFA01D95169E007FCD5B /* UIImageView+HighlightedWebCache.m in Sources */,
 				BCF5EEE71D951457007FCD5B /* SJMProductNetWorkManage.swift in Sources */,
+				BC3535F91D96858000DFDBBC /* SJMCollectView.swift in Sources */,
+				BC3535FF1D96858000DFDBBC /* SJMBannersNetWorkManager.swift in Sources */,
 				BCA87A871D91812A00635CEB /* SJMMineViewController.swift in Sources */,
 				BCF5EF861D95169E007FCD5B /* README.md in Sources */,
 				BCF5EFC01D95169E007FCD5B /* JSONKeyMapper.m in Sources */,
@@ -2773,8 +2839,8 @@
 				BCF5EFC21D95169E007FCD5B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				BCF5EFB01D95169E007FCD5B /* MJRefreshGifHeader.m in Sources */,
 				BCF5EFA11D95169E007FCD5B /* UIImageView+WebCache.m in Sources */,
+				BC3536011D96858000DFDBBC /* SJMHomeNetWorkManger.swift in Sources */,
 				BCF5EF911D95169E007FCD5B /* View+SnapKit.swift in Sources */,
-				BCA87A821D91812A00635CEB /* SJMSugarViewController.swift in Sources */,
 				BCF5EFC51D95169E007FCD5B /* CycleImageCell.m in Sources */,
 				BCF5EF9C1D95169E007FCD5B /* UIButton+WebCache.m in Sources */,
 				BCF5EFA91D95169E007FCD5B /* MJRefreshHeader.m in Sources */,
@@ -2823,9 +2889,12 @@
 				BCF5EFB71D95169E007FCD5B /* UIView+MJExtension.m in Sources */,
 				BCF5EFBA1D95169E007FCD5B /* JSONModel.m in Sources */,
 				BCF5EFA71D95169E007FCD5B /* MJRefreshComponent.m in Sources */,
+				BC3535F81D96858000DFDBBC /* SJMChannelsView.swift in Sources */,
 				BCF5EF931D95169E007FCD5B /* MKAnnotationView+WebCache.m in Sources */,
+				BC3535FE1D96858000DFDBBC /* SJMBannersModel.swift in Sources */,
 				BCF5EFB11D95169E007FCD5B /* MJRefreshNormalHeader.m in Sources */,
 				BCF5EFC91D951804007FCD5B /* MD5Tool.swift in Sources */,
+				BC3535FC1D96858000DFDBBC /* SJMHomeGardenView.swift in Sources */,
 				BCF5EF9E1D95169E007FCD5B /* UIImage+MultiFormat.m in Sources */,
 				BCF5EFAE1D95169E007FCD5B /* MJRefreshBackNormalFooter.m in Sources */,
 				BCF5EFBF1D95169E007FCD5B /* JSONModel+networking.m in Sources */,
@@ -2836,16 +2905,23 @@
 				BCF5EFAC1D95169E007FCD5B /* MJRefreshAutoStateFooter.m in Sources */,
 				BCF5EFC61D95169E007FCD5B /* XTADScrollView.m in Sources */,
 				BCF5EF9F1D95169E007FCD5B /* UIImage+WebP.m in Sources */,
+				BC3535F71D96858000DFDBBC /* SJMCateView.swift in Sources */,
+				BC3535FB1D96858000DFDBBC /* SJMGrocerView.swift in Sources */,
 				BCF5EF8B1D95169E007FCD5B /* ConstraintMaker.swift in Sources */,
 				BCF5EF921D95169E007FCD5B /* ViewController+SnapKit.swift in Sources */,
 				BCF5EFAF1D95169E007FCD5B /* MJRefreshBackStateFooter.m in Sources */,
 				BCF5EFBB1D95169E007FCD5B /* JSONModelClassProperty.m in Sources */,
 				BCF5EF7F1D95169E007FCD5B /* README.md in Sources */,
+				BC3536001D96858000DFDBBC /* SJMHomeModel.swift in Sources */,
 				BCA87A851D91812A00635CEB /* SJMTabBarController.swift in Sources */,
 				BCF5EF8C1D95169E007FCD5B /* ConstraintRelation.swift in Sources */,
 				BCF5EFCA1D951804007FCD5B /* BaseRequest.swift in Sources */,
 				BCA87A541D9180DA00635CEB /* AppDelegate.swift in Sources */,
 				BCF5EFA41D95169E007FCD5B /* UIViewController+MLTransition.m in Sources */,
+				BC3535FA1D96858000DFDBBC /* SJMDigitalView.swift in Sources */,
+				BC3535FD1D96858000DFDBBC /* SJMSelectionView.swift in Sources */,
+				BC3535F51D96858000DFDBBC /* SJMHomeCell.swift in Sources */,
+				BC3535E41D96851000DFDBBC /* SJMSugarViewController.swift in Sources */,
 				BCF5EF951D95169E007FCD5B /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
