@@ -25,16 +25,17 @@ class SJMHomeGardenView: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.cyanColor()
         self.loadData()
     }
     func loadData() -> Void {
-        SJMHomeModel.HomeGardenreuqestData { (items, error) in
+        HDManager.startLoading()
+        SJMHomeModel.HomeGardenreuqestData { (items, error) in            
             if error == nil {
                 self.dataArr.addObjectsFromArray(items! as [AnyObject])
                 self.tableView.reloadData()
             }
         }
+        HDManager.stopLoading()
     }
     
     required init?(coder aDecoder: NSCoder) {

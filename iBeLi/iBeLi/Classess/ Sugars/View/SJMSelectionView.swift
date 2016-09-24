@@ -42,11 +42,12 @@ class SJMSelectionView: UICollectionViewCell {
     }()
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.cyanColor()
         self.loadData()
     }
     func loadData() -> Void {
+        HDManager.startLoading()
         SJMHomeModel.SelectionreuqestData { (items, error) in
+            
             if error == nil {
                 self.dataArr.addObjectsFromArray(items! as [AnyObject])
                 self.tableView.reloadData()
@@ -57,6 +58,7 @@ class SJMSelectionView: UICollectionViewCell {
                 self.adView.imageURLArray = banner
             }
         }
+        HDManager.stopLoading()
     }
     
     required init?(coder aDecoder: NSCoder) {

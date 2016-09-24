@@ -25,16 +25,17 @@ class SJMCateView: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.cyanColor()
         self.loadData()
     }
     func loadData() -> Void {
+        HDManager.startLoading()
         SJMHomeModel.CatereuqestData { (items, error) in
             if error == nil {
                 self.dataArr.addObjectsFromArray(items! as [AnyObject])
                 self.tableView.reloadData()
             }
         }
+        HDManager.stopLoading()
     }
     
     required init?(coder aDecoder: NSCoder) {

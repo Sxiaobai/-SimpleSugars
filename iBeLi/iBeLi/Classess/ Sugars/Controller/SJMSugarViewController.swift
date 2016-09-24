@@ -21,7 +21,7 @@ class SJMSugarViewController: SJMBaseViewController, SJMChanelsViewDelegate {
         layout.minimumInteritemSpacing = 0
         let contentView = UICollectionView.init(frame: CGRectMake(0, 64 + 35, SCREEN_W, SCREEN_H - 64 - 49 - 35), collectionViewLayout: layout)
         contentView.pagingEnabled = true
-        contentView.backgroundColor = UIColor.greenColor()
+        contentView.backgroundColor = UIColor.whiteColor()
         contentView.showsHorizontalScrollIndicator = false
         contentView.registerClass(SJMSelectionView.self, forCellWithReuseIdentifier: "SJMSelectionView")
         contentView.registerClass(SJMCateView.self, forCellWithReuseIdentifier: "SJMCateView")
