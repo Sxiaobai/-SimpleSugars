@@ -36,7 +36,7 @@ enum SJMShareButtonType: Int {
     /// 复制链接
     case CopyLink = 5
 }
-enum YMOtherLoginButtonType: Int {
+enum SJMOtherLoginButtonType: Int {
     /// 微博
     case weiboLogin = 100
     /// 微信

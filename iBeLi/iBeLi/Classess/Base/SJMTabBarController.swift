@@ -14,14 +14,14 @@ class SJMTabBarController: UITabBarController {
         super.viewDidLoad()
 
         tabBar.tintColor = UIColor.init(red: 245 / 255, green: 80 / 255, blue: 83 / 255, alpha: 1.0)
-        self.addChildViewController()
+        self.addChildViewControllers()
     }
     //添加子控制器
-    private func addChildViewController() {
+    private func addChildViewControllers() {
         self.addChildViewController("SJMSugarViewController", title: "单糖", imageName: "TabBar_home_23x23_")
         self.addChildViewController("SJMProductViewController", title: "单品", imageName: "TabBar_gift_23x23_")
         self.addChildViewController("SJMCategoryViewController", title: "分类", imageName: "TabBar_category_23x23_")
-        self.addChildViewController("SJMMineViewController", title: "我的", imageName: "TabBar_me_boy_23x23_")
+        self.addChildViewController("SJMMeViewController", title: "我的", imageName: "TabBar_me_boy_23x23_")
        
     }
     /**

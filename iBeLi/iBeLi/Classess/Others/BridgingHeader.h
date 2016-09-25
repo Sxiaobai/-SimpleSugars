@@ -28,7 +28,8 @@
 
 #import "HDManager.h"
 
-
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import <objc/runtime.h>
 
 
 #endif /* BridgingHeader_h */
