@@ -27,6 +27,7 @@
 		BC30FD391D97977A006F22B1 /* SJMRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC30FD341D97977A006F22B1 /* SJMRegisterViewController.xib */; };
 		BC30FD3B1D97A8EF006F22B1 /* SJMVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30FD3A1D97A8EF006F22B1 /* SJMVerticalButton.swift */; };
 		BC30FD3D1D97A91C006F22B1 /* SJMGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30FD3C1D97A91C006F22B1 /* SJMGroup.swift */; };
+		BC30FD3F1D97FB52006F22B1 /* SJMDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30FD3E1D97FB52006F22B1 /* SJMDetailViewController.swift */; };
 		BC3535E41D96851000DFDBBC /* SJMSugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */; };
 		BC3535F51D96858000DFDBBC /* SJMHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535E71D96858000DFDBBC /* SJMHomeCell.swift */; };
 		BC3535F61D96858000DFDBBC /* SJMHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3535E81D96858000DFDBBC /* SJMHomeCell.xib */; };
@@ -41,6 +42,16 @@
 		BC3535FF1D96858000DFDBBC /* SJMBannersNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F21D96858000DFDBBC /* SJMBannersNetWorkManager.swift */; };
 		BC3536001D96858000DFDBBC /* SJMHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F31D96858000DFDBBC /* SJMHomeModel.swift */; };
 		BC3536011D96858000DFDBBC /* SJMHomeNetWorkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3535F41D96858000DFDBBC /* SJMHomeNetWorkManger.swift */; };
+		BC383AFD1D98C98B00711161 /* SJMProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383AFC1D98C98B00711161 /* SJMProductDetailViewController.swift */; };
+		BC383AFF1D98CAB800711161 /* SJMActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383AFE1D98CAB800711161 /* SJMActionSheet.swift */; };
+		BC383B011D98CB1400711161 /* SJMShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B001D98CB1400711161 /* SJMShareButtonView.swift */; };
+		BC383B051D98F5B000711161 /* SJMCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B031D98F5B000711161 /* SJMCollection.swift */; };
+		BC383B061D98F5B000711161 /* SJMCollectionPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B041D98F5B000711161 /* SJMCollectionPost.swift */; };
+		BC383B081D98FE8300711161 /* SJMCollectionNetWorkmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B071D98FE8300711161 /* SJMCollectionNetWorkmanager.swift */; };
+		BC383B0B1D99157F00711161 /* SJMTopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B091D99157F00711161 /* SJMTopHeaderView.swift */; };
+		BC383B0C1D99157F00711161 /* SJMTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC383B0A1D99157F00711161 /* SJMTopHeaderView.xib */; };
+		BC383B1A1D993C7C00711161 /* SJMChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B191D993C7C00711161 /* SJMChannelModel.swift */; };
+		BC383B1C1D993E1900711161 /* SJMChannelNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC383B1B1D993E1900711161 /* SJMChannelNetWorkManager.swift */; };
 		BCA87A541D9180DA00635CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A531D9180DA00635CEB /* AppDelegate.swift */; };
 		BCA87A561D9180DA00635CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A551D9180DA00635CEB /* ViewController.swift */; };
 		BCA87A591D9180DA00635CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA87A571D9180DA00635CEB /* Main.storyboard */; };
@@ -53,7 +64,6 @@
 		BCA87A871D91812A00635CEB /* SJMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A761D91812A00635CEB /* SJMMineViewController.swift */; };
 		BCA87A881D91812A00635CEB /* SJMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A7C1D91812A00635CEB /* SJMConst.swift */; };
 		BCA87A891D91812A00635CEB /* SJMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87A7F1D91812A00635CEB /* SJMProductViewController.swift */; };
-		BCA87BFE1D9183C400635CEB /* 临时NewfeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA87BFD1D9183C400635CEB /* 临时NewfeatureViewController.swift */; };
 		BCF5EC4D1D94CE99007FCD5B /* SJMProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5EC4B1D94CE99007FCD5B /* SJMProductCell.swift */; };
 		BCF5EC4E1D94CE99007FCD5B /* SJMProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF5EC4C1D94CE99007FCD5B /* SJMProductCell.xib */; };
 		BCF5EDD31D94FBD3007FCD5B /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF5EC5E1D94FBD3007FCD5B /* AppIcon29x29@2x.png */; };
@@ -426,7 +436,8 @@
 		BC30FD331D97977A006F22B1 /* SJMRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMRegisterViewController.swift; sourceTree = "<group>"; };
 		BC30FD341D97977A006F22B1 /* SJMRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMRegisterViewController.xib; sourceTree = "<group>"; };
 		BC30FD3A1D97A8EF006F22B1 /* SJMVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMVerticalButton.swift; sourceTree = "<group>"; };
-		BC30FD3C1D97A91C006F22B1 /* SJMGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMGroup.swift; sourceTree = "<group>"; };
+		BC30FD3C1D97A91C006F22B1 /* SJMGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SJMGroup.swift; path = ../SJMGroup.swift; sourceTree = "<group>"; };
+		BC30FD3E1D97FB52006F22B1 /* SJMDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMDetailViewController.swift; sourceTree = "<group>"; };
 		BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMSugarViewController.swift; sourceTree = "<group>"; };
 		BC3535E71D96858000DFDBBC /* SJMHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeCell.swift; sourceTree = "<group>"; };
 		BC3535E81D96858000DFDBBC /* SJMHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMHomeCell.xib; sourceTree = "<group>"; };
@@ -441,6 +452,16 @@
 		BC3535F21D96858000DFDBBC /* SJMBannersNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMBannersNetWorkManager.swift; sourceTree = "<group>"; };
 		BC3535F31D96858000DFDBBC /* SJMHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeModel.swift; sourceTree = "<group>"; };
 		BC3535F41D96858000DFDBBC /* SJMHomeNetWorkManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMHomeNetWorkManger.swift; sourceTree = "<group>"; };
+		BC383AFC1D98C98B00711161 /* SJMProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMProductDetailViewController.swift; sourceTree = "<group>"; };
+		BC383AFE1D98CAB800711161 /* SJMActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMActionSheet.swift; sourceTree = "<group>"; };
+		BC383B001D98CB1400711161 /* SJMShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMShareButtonView.swift; sourceTree = "<group>"; };
+		BC383B031D98F5B000711161 /* SJMCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMCollection.swift; sourceTree = "<group>"; };
+		BC383B041D98F5B000711161 /* SJMCollectionPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMCollectionPost.swift; sourceTree = "<group>"; };
+		BC383B071D98FE8300711161 /* SJMCollectionNetWorkmanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMCollectionNetWorkmanager.swift; sourceTree = "<group>"; };
+		BC383B091D99157F00711161 /* SJMTopHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMTopHeaderView.swift; sourceTree = "<group>"; };
+		BC383B0A1D99157F00711161 /* SJMTopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMTopHeaderView.xib; sourceTree = "<group>"; };
+		BC383B191D993C7C00711161 /* SJMChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMChannelModel.swift; sourceTree = "<group>"; };
+		BC383B1B1D993E1900711161 /* SJMChannelNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMChannelNetWorkManager.swift; sourceTree = "<group>"; };
 		BCA87A501D9180DA00635CEB /* iBeLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA87A531D9180DA00635CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA87A551D9180DA00635CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -456,7 +477,6 @@
 		BCA87A7A1D91812A00635CEB /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		BCA87A7C1D91812A00635CEB /* SJMConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMConst.swift; sourceTree = "<group>"; };
 		BCA87A7F1D91812A00635CEB /* SJMProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMProductViewController.swift; sourceTree = "<group>"; };
-		BCA87BFD1D9183C400635CEB /* 临时NewfeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "临时NewfeatureViewController.swift"; sourceTree = "<group>"; };
 		BCF5EC4B1D94CE99007FCD5B /* SJMProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMProductCell.swift; sourceTree = "<group>"; };
 		BCF5EC4C1D94CE99007FCD5B /* SJMProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMProductCell.xib; sourceTree = "<group>"; };
 		BCF5EC5E1D94FBD3007FCD5B /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
@@ -879,6 +899,8 @@
 		BC30FD1B1D9794C9006F22B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC383B091D99157F00711161 /* SJMTopHeaderView.swift */,
+				BC383B0A1D99157F00711161 /* SJMTopHeaderView.xib */,
 				BC30FD3A1D97A8EF006F22B1 /* SJMVerticalButton.swift */,
 			);
 			path = View;
@@ -919,6 +941,33 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BC383AFB1D98C7A100711161 /* Huddle */ = {
+			isa = PBXGroup;
+			children = (
+				BCA87A531D9180DA00635CEB /* AppDelegate.swift */,
+				BCA87A551D9180DA00635CEB /* ViewController.swift */,
+				BCA87A571D9180DA00635CEB /* Main.storyboard */,
+				BCA87A5A1D9180DA00635CEB /* Assets.xcassets */,
+				BCA87A5C1D9180DA00635CEB /* LaunchScreen.storyboard */,
+				BCA87A5F1D9180DA00635CEB /* Info.plist */,
+				BC30FD2C1D97963E006F22B1 /* SettingCell.plist */,
+			);
+			name = Huddle;
+			sourceTree = "<group>";
+		};
+		BC383B021D98F59E00711161 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC383B031D98F5B000711161 /* SJMCollection.swift */,
+				BC383B071D98FE8300711161 /* SJMCollectionNetWorkmanager.swift */,
+				BC383B191D993C7C00711161 /* SJMChannelModel.swift */,
+				BC383B1B1D993E1900711161 /* SJMChannelNetWorkManager.swift */,
+				BC383B041D98F5B000711161 /* SJMCollectionPost.swift */,
+				BC30FD3C1D97A91C006F22B1 /* SJMGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BCA87A471D9180DA00635CEB = {
 			isa = PBXGroup;
 			children = (
@@ -941,13 +990,7 @@
 			isa = PBXGroup;
 			children = (
 				BCA87A651D91812A00635CEB /* Classess */,
-				BCA87A531D9180DA00635CEB /* AppDelegate.swift */,
-				BCA87A551D9180DA00635CEB /* ViewController.swift */,
-				BCA87A571D9180DA00635CEB /* Main.storyboard */,
-				BCA87A5A1D9180DA00635CEB /* Assets.xcassets */,
-				BCA87A5C1D9180DA00635CEB /* LaunchScreen.storyboard */,
-				BCA87A5F1D9180DA00635CEB /* Info.plist */,
-				BC30FD2C1D97963E006F22B1 /* SettingCell.plist */,
+				BC383AFB1D98C7A100711161 /* Huddle */,
 			);
 			path = iBeLi;
 			sourceTree = "<group>";
@@ -980,6 +1023,7 @@
 			isa = PBXGroup;
 			children = (
 				BC3535E31D96851000DFDBBC /* SJMSugarViewController.swift */,
+				BC30FD3E1D97FB52006F22B1 /* SJMDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -997,7 +1041,7 @@
 		BCA87A6F1D91812A00635CEB /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				BC30FD3C1D97A91C006F22B1 /* SJMGroup.swift */,
+				BC383B021D98F59E00711161 /* Model */,
 				BC30FD1B1D9794C9006F22B1 /* View */,
 				BCA87A701D91812A00635CEB /* Controller */,
 			);
@@ -1089,6 +1133,7 @@
 			isa = PBXGroup;
 			children = (
 				BCA87A7F1D91812A00635CEB /* SJMProductViewController.swift */,
+				BC383AFC1D98C98B00711161 /* SJMProductDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1125,7 +1170,6 @@
 				BC30FD321D97977A006F22B1 /* SJMNewfeatureViewController.swift */,
 				BC30FD331D97977A006F22B1 /* SJMRegisterViewController.swift */,
 				BC30FD341D97977A006F22B1 /* SJMRegisterViewController.xib */,
-				BCA87BFD1D9183C400635CEB /* 临时NewfeatureViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1133,6 +1177,8 @@
 		BCF5EC481D94CE5F007FCD5B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC383AFE1D98CAB800711161 /* SJMActionSheet.swift */,
+				BC383B001D98CB1400711161 /* SJMShareButtonView.swift */,
 				BCF5EC4A1D94CE89007FCD5B /* Cell */,
 			);
 			path = View;
@@ -2578,6 +2624,7 @@
 				TargetAttributes = {
 					BCA87A4F1D9180DA00635CEB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YLW484W6S9;
 					};
 				};
 			};
@@ -2619,6 +2666,7 @@
 				BCF5EEAE1D94FBD3007FCD5B /* Contents.json in Resources */,
 				BCF5EE291D94FBD3007FCD5B /* icon_sort_21x21_@2x.png in Resources */,
 				BCF5EE061D94FBD3007FCD5B /* Contents.json in Resources */,
+				BC383B0C1D99157F00711161 /* SJMTopHeaderView.xib in Resources */,
 				BCF5EECF1D94FBD3007FCD5B /* TabBar_me_boy_selected_23x23_@3x.png in Resources */,
 				BCF5EE741D94FBD3007FCD5B /* Contents.json in Resources */,
 				BCF5EFB31D95169E007FCD5B /* MJRefresh.bundle in Resources */,
@@ -2899,6 +2947,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC30FD3F1D97FB52006F22B1 /* SJMDetailViewController.swift in Sources */,
 				BCF5EFA01D95169E007FCD5B /* UIImageView+HighlightedWebCache.m in Sources */,
 				BCF5EEE71D951457007FCD5B /* SJMProductNetWorkManage.swift in Sources */,
 				BC3535F91D96858000DFDBBC /* SJMCollectView.swift in Sources */,
@@ -2907,13 +2956,15 @@
 				BCF5EF861D95169E007FCD5B /* README.md in Sources */,
 				BCF5EFC01D95169E007FCD5B /* JSONKeyMapper.m in Sources */,
 				BCA87A561D9180DA00635CEB /* ViewController.swift in Sources */,
-				BCA87BFE1D9183C400635CEB /* 临时NewfeatureViewController.swift in Sources */,
 				BCF5EFC21D95169E007FCD5B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				BCF5EFB01D95169E007FCD5B /* MJRefreshGifHeader.m in Sources */,
 				BC30FD371D97977A006F22B1 /* SJMNewfeatureViewController.swift in Sources */,
+				BC383B1A1D993C7C00711161 /* SJMChannelModel.swift in Sources */,
 				BCF5EFA11D95169E007FCD5B /* UIImageView+WebCache.m in Sources */,
+				BC383B011D98CB1400711161 /* SJMShareButtonView.swift in Sources */,
 				BC3536011D96858000DFDBBC /* SJMHomeNetWorkManger.swift in Sources */,
 				BC30FD211D979569006F22B1 /* SJMMeChoiceView.swift in Sources */,
+				BC383B061D98F5B000711161 /* SJMCollectionPost.swift in Sources */,
 				BCF5EF911D95169E007FCD5B /* View+SnapKit.swift in Sources */,
 				BCF5EFC51D95169E007FCD5B /* CycleImageCell.m in Sources */,
 				BC30FD2F1D9796F3006F22B1 /* SJMSetting.swift in Sources */,
@@ -2926,6 +2977,7 @@
 				BCF5EF9D1D95169E007FCD5B /* UIImage+GIF.m in Sources */,
 				BCF5EFC11D95169E007FCD5B /* JSONValueTransformer.m in Sources */,
 				BCF5EFAA1D95169E007FCD5B /* MJRefreshAutoGifFooter.m in Sources */,
+				BC383B0B1D99157F00711161 /* SJMTopHeaderView.swift in Sources */,
 				BCF5EFA61D95169E007FCD5B /* MJRefreshBackFooter.m in Sources */,
 				BCF5EF9B1D95169E007FCD5B /* SDWebImagePrefetcher.m in Sources */,
 				BCF5EFC41D95169E007FCD5B /* README.md in Sources */,
@@ -2934,6 +2986,7 @@
 				BCF5EFAD1D95169E007FCD5B /* MJRefreshBackGifFooter.m in Sources */,
 				BC30FD2B1D979580006F22B1 /* SJMSettingViewController.swift in Sources */,
 				BCF5EF8D1D95169E007FCD5B /* Debugging.swift in Sources */,
+				BC383AFD1D98C98B00711161 /* SJMProductDetailViewController.swift in Sources */,
 				BCF5EF8F1D95169E007FCD5B /* LayoutConstraint.swift in Sources */,
 				BCF5EF961D95169E007FCD5B /* SDWebImageCompat.m in Sources */,
 				BCF5EF981D95169E007FCD5B /* SDWebImageDownloader.m in Sources */,
@@ -2943,6 +2996,7 @@
 				BC30FD3B1D97A8EF006F22B1 /* SJMVerticalButton.swift in Sources */,
 				BCF5EF971D95169E007FCD5B /* SDWebImageDecoder.m in Sources */,
 				BCF5EF9A1D95169E007FCD5B /* SDWebImageManager.m in Sources */,
+				BC383B051D98F5B000711161 /* SJMCollection.swift in Sources */,
 				BCF5EFB51D95169E007FCD5B /* UIScrollView+MJExtension.m in Sources */,
 				BCF5EEE51D9512CF007FCD5B /* SJMProductModel.swift in Sources */,
 				BC30FD291D979580006F22B1 /* SJMMessageViewController.swift in Sources */,
@@ -2967,6 +3021,7 @@
 				BCA87A861D91812A00635CEB /* SJMCategoryViewController.swift in Sources */,
 				BCF5EF801D95169E007FCD5B /* SVIndefiniteAnimatedView.m in Sources */,
 				BCF5EFBC1D95169E007FCD5B /* JSONModelError.m in Sources */,
+				BC383B081D98FE8300711161 /* SJMCollectionNetWorkmanager.swift in Sources */,
 				BCF5EFB71D95169E007FCD5B /* UIView+MJExtension.m in Sources */,
 				BCF5EFBA1D95169E007FCD5B /* JSONModel.m in Sources */,
 				BCF5EFA71D95169E007FCD5B /* MJRefreshComponent.m in Sources */,
@@ -2976,6 +3031,7 @@
 				BC30FD061D9792FC006F22B1 /* UIView+Extension.swift in Sources */,
 				BCF5EFB11D95169E007FCD5B /* MJRefreshNormalHeader.m in Sources */,
 				BCF5EFC91D951804007FCD5B /* MD5Tool.swift in Sources */,
+				BC383B1C1D993E1900711161 /* SJMChannelNetWorkManager.swift in Sources */,
 				BC3535FC1D96858000DFDBBC /* SJMHomeGardenView.swift in Sources */,
 				BCF5EF9E1D95169E007FCD5B /* UIImage+MultiFormat.m in Sources */,
 				BC30FD231D979569006F22B1 /* SJMMineHeaderView.swift in Sources */,
@@ -2998,6 +3054,7 @@
 				BCF5EFBB1D95169E007FCD5B /* JSONModelClassProperty.m in Sources */,
 				BCF5EF7F1D95169E007FCD5B /* README.md in Sources */,
 				BC3536001D96858000DFDBBC /* SJMHomeModel.swift in Sources */,
+				BC383AFF1D98CAB800711161 /* SJMActionSheet.swift in Sources */,
 				BCA87A851D91812A00635CEB /* SJMTabBarController.swift in Sources */,
 				BC30FD351D97977A006F22B1 /* SJMLoginViewController.swift in Sources */,
 				BCF5EF8C1D95169E007FCD5B /* ConstraintRelation.swift in Sources */,
@@ -3054,7 +3111,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: jianguo Zeng (YLW484W6S9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jianguo Zeng (YLW484W6S9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -3076,6 +3134,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "df0df7c2-4a0e-491b-b2d6-5f2bd39103d7";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -3099,7 +3158,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: jianguo Zeng (YLW484W6S9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jianguo Zeng (YLW484W6S9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -3114,6 +3174,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "df0df7c2-4a0e-491b-b2d6-5f2bd39103d7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3123,10 +3184,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iBeLi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sunjimin.iBeLi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunjimin.iBeLi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = iBeLi/Classess/Others/BridgingHeader.h;
 			};
 			name = Debug;
@@ -3135,10 +3200,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iBeLi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sunjimin.iBeLi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunjimin.iBeLi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = iBeLi/Classess/Others/BridgingHeader.h;
 			};
 			name = Release;

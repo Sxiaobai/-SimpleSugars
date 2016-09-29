@@ -10,8 +10,8 @@ import UIKit
 //protocol PushViewControllerDelegate: class {
 //    func pushViewController(destiationVC: UIViewController) -> Void
 //}
-class SJMSugarViewController: SJMBaseViewController, SJMChanelsViewDelegate {
-
+class SJMSugarViewController: SJMBaseViewController, SJMChanelsViewDelegate, SJMSelectionViewDelegate {
+    
     
     var titleView: SJMChannelsView!
     lazy var contentView: UICollectionView = {
@@ -38,11 +38,11 @@ class SJMSugarViewController: SJMBaseViewController, SJMChanelsViewDelegate {
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.automaticallyAdjustsScrollViewInsets = false
         self.contentView.reloadData()
         self.creattitleView()
-       
+        
     }
     func creattitleView() -> Void {
         titleView = SJMChannelsView.init(frame: CGRectMake(0, 64, SCREEN_W, kTitlesViewH), leftSpace: 5, titleArray: ["精选", "美食", "家居", "数码", "美物", "杂货"])
@@ -61,22 +61,39 @@ extension SJMSugarViewController: UICollectionViewDelegate, UICollectionViewData
         return 6
     }
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cellID = ""
+        var cellID = "SJMSelectionView"
         if indexPath.item == 0 {
             cellID = "SJMSelectionView"
-        } else if indexPath.item == 1 {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMSelectionView
+            cell.delegate = self
+            return cell
+        }else if indexPath.item == 1 {
             cellID = "SJMCateView"
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMCateView
+            cell.delegate = self
+            return cell
         } else if indexPath.item == 2 {
             cellID = "SJMHomeGardenView"
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMHomeGardenView
+                cell.delegate = self
+            return cell
         } else if indexPath.item == 3 {
             cellID = "SJMDigitalView"
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMDigitalView
+            cell.delegate = self
+            return cell
         } else if indexPath.item == 4 {
             cellID = "SJMCollectView"
-        } else if indexPath.item == 5 {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMCollectView
+            cell.delegate = self
+            return cell
+        } else {
             cellID = "SJMGrocerView"
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath) as! SJMGrocerView
+                cell.delegate = self
+            return cell
+            
         }
-        let cell = contentView.dequeueReusableCellWithReuseIdentifier(cellID, forIndexPath: indexPath)
-        return cell
     }
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         
@@ -94,7 +111,13 @@ extension SJMSugarViewController: UICollectionViewDelegate, UICollectionViewData
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         return CGSizeMake(collectionView.mj_w, collectionView.mj_h)
     }
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        
+    }
     
-    
+    func pushWebView(web: SJMDetailViewController) {
+        self.navigationController?.pushViewController(web, animated: true)
+    }
     
 }

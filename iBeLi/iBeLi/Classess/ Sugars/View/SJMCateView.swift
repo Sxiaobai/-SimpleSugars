@@ -11,7 +11,7 @@ import UIKit
 class SJMCateView: UICollectionViewCell {
     
     var dataArr = NSMutableArray()
-    
+    weak var delegate: SJMSelectionViewDelegate?
     lazy var tableView: UITableView = {
         
         let tableView = UITableView.init(frame: CGRectMake(0, 0, SCREEN_W, SCREEN_H - 64 - 49), style: .Plain)
@@ -59,5 +59,12 @@ extension SJMCateView: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 160
+    }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let model = dataArr[indexPath.row] as! SJMHomeModel
+        let webView = SJMDetailViewController()
+        webView.url = model.contentUrl
+        self.delegate?.pushWebView(webView)
     }
 }

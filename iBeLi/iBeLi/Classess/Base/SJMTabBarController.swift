@@ -18,8 +18,8 @@ class SJMTabBarController: UITabBarController {
     }
     //添加子控制器
     private func addChildViewControllers() {
-        self.addChildViewController("SJMSugarViewController", title: "单糖", imageName: "TabBar_home_23x23_")
-        self.addChildViewController("SJMProductViewController", title: "单品", imageName: "TabBar_gift_23x23_")
+        self.addChildViewController("SJMSugarViewController", title: "首页", imageName: "TabBar_home_23x23_")
+        self.addChildViewController("SJMProductViewController", title: "艾贝", imageName: "TabBar_gift_23x23_")
         self.addChildViewController("SJMCategoryViewController", title: "分类", imageName: "TabBar_category_23x23_")
         self.addChildViewController("SJMMeViewController", title: "我的", imageName: "TabBar_me_boy_23x23_")
        

@@ -55,8 +55,31 @@ class BaseRequest{
             }else
             {
                 callBack(data:nil,error:error)
+                let url = NSURL.init(string: "prefs:root=General")
+                if UIApplication.sharedApplication().canOpenURL(url!) {
+                    UIApplication.sharedApplication().openURL(url!)
+                }
             }
         }
+        //
+//        func setNetWorkView() -> Void {
+//            
+//            let url = NSURL.init(string: "prefs:root=Brightness")
+//            if UIApplication.sharedApplication().canOpenURL(url!) {
+//                UIApplication.sharedApplication().openURL(url!)
+//                
+//            }
+//            let ac = UIAlertController.init(title: "⚠️", message: "无网络连接, 请检查网络设置", preferredStyle: UIAlertControllerStyle.Alert)
+//            let action = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.Default) { (action) in
+//                // 调用系统的设置界面
+//                let url = NSURL.init(string: "prefs:root=General")
+//                if UIApplication.sharedApplication().canOpenURL(url!) {
+//                    UIApplication.sharedApplication().openURL(url!)
+//                }
+//            }
+//            ac.addAction(action)
+//            self.delegate?.sentMessage(ac)
+//        }
         //启动请求任务
         dataTask .resume()
     }

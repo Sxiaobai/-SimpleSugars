@@ -1,10 +1,12 @@
 //
-//  YMRegisterViewController.swift
-//  DanTang
+//  SJMRegisterViewController.swift
+//  iBeLi
 //
-//  Created by 杨蒙 on 16/7/21.
-//  Copyright © 2016年 hrscy. All rights reserved.
+//  Created by qianfeng on 16/9/23.
+//  Copyright © 2016年 sunjimin. All rights reserved.
 //
+
+
 
 import UIKit
 

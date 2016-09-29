@@ -8,11 +8,16 @@
 
 import UIKit
 
+protocol SJMSelectionViewDelegate: class {
+    func pushWebView(web: SJMDetailViewController) -> Void
+    
+}
+
 class SJMSelectionView: UICollectionViewCell {
     
     
     var dataArr = NSMutableArray()
-    
+    weak var delegate: SJMSelectionViewDelegate?
     lazy var tableView: UITableView = {
     
         let tableView = UITableView.init(frame: CGRectMake(0, 0, SCREEN_W, SCREEN_H - 64 - 49), style: .Plain)
@@ -40,6 +45,7 @@ class SJMSelectionView: UICollectionViewCell {
         return adView
     
     }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.loadData()
@@ -47,7 +53,6 @@ class SJMSelectionView: UICollectionViewCell {
     func loadData() -> Void {
         HDManager.startLoading()
         SJMHomeModel.SelectionreuqestData { (items, error) in
-            
             if error == nil {
                 self.dataArr.addObjectsFromArray(items! as [AnyObject])
                 self.tableView.reloadData()
@@ -78,9 +83,18 @@ extension SJMSelectionView: UITableViewDelegate, UITableViewDataSource {
         cell.bgImageView.sd_setImageWithURL(NSURL.init(string: model.coverImageUrl))
         cell.titleLabel.text = model.title
         cell.favoriteBtn.setTitle(model.likesCount, forState: .Normal)
+        
+    
         return cell
     }
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 160
+    }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let model = dataArr[indexPath.row] as! SJMHomeModel
+        let webView = SJMDetailViewController()
+        webView.url = model.contentUrl
+        self.delegate?.pushWebView(webView)
     }
 }

@@ -18,13 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
-        // 检测用户是不是第一次启动
-        if !NSUserDefaults.standardUserDefaults().boolForKey(SJMFirstLaunch) {
-            window?.rootViewController = SJMNewfeatureViewController()
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: SJMFirstLaunch)
-        } else {
-            window?.rootViewController = SJMTabBarController()
-        }
+        window?.rootViewController = SJMTabBarController()
+//        // 检测用户是不是第一次启动
+//        if !NSUserDefaults.standardUserDefaults().boolForKey(SJMFirstLaunch) {
+//            window?.rootViewController = SJMNewfeatureViewController()
+//            NSUserDefaults.standardUserDefaults().setBool(true, forKey: SJMFirstLaunch)
+//        } else {
+//            window?.rootViewController = SJMTabBarController()
+//        }
         return true
     }
 

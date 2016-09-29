@@ -15,6 +15,7 @@ class SJMProductModel: JSONModel {
     var id: String!
     var name: String!
     var price: String!
+    var url: String!
     override class func propertyIsOptional(property:String)->Bool
     {
         return true

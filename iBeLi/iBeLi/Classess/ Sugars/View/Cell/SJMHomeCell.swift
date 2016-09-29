@@ -26,7 +26,17 @@ class SJMHomeCell: UITableViewCell {
     
     @IBOutlet weak var placeholderBtn: UIButton!
     
+    var homeItem: SJMHomeModel? {
    
+        didSet {
+            let url = homeItem!.coverImageUrl
+            bgImageView.sd_setImageWithURL(NSURL(string: url!)!, placeholderImage: nil, options: SDWebImageOptions.init(rawValue: 0), progress: nil) { (image, error, cacheType, imageURL) in
+                self.placeholderBtn.hidden = true
+            }
+            titleLabel.text = homeItem!.title
+            favoriteBtn.setTitle(" " + String(homeItem!.likesCount!) + " ", forState: .Normal)
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

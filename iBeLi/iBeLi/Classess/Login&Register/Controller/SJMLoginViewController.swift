@@ -1,9 +1,9 @@
 //
-//  YMLoginViewController.swift
-//  DanTang
+//  SJMLoginViewController.swift
+//  iBeLi
 //
-//  Created by 杨蒙 on 16/7/20.
-//  Copyright © 2016年 hrscy. All rights reserved.
+//  Created by qianfeng on 16/9/23.
+//  Copyright © 2016年 sunjimin. All rights reserved.
 //
 
 import UIKit

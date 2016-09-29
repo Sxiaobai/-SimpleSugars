@@ -10,6 +10,8 @@ import Foundation
 
 class SJMHomeModel: JSONModel {
     
+    var contentUrl: String!
+    var id:Int!
     var coverImageUrl: String!
     var likesCount: String!
     var title: String!
